@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    /* background-color: azure; */
+}
+.uni-padding{
+    padding: 0 7%;
+}
+#topbar{
+    background-color: gainsboro;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow:auto;
+}
+#topbar p{
+    float: left;
+    margin: 0;
+    margin-top: 2px;
+}
+#social-icon{
+    float: right;
+}
+#social-icon div{
+    float: left;
+    border: 1px solid gray;
+    padding: 1px;
+    margin: 0 2px;
+    border-radius: 40%;
+}
+#app-logo-container{
+    background-color: lightskyblue;
+}
+#app-logo-container img{
+    width:200px;
+}
+#app-nav ul li{
+    display: inline-block;    
+    padding: 20px 0;
+    padding-right: 30px;
+}
+#app-nav ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+#app-nav{
+    background-color: antiquewhite;
+}
+#footer-links{
+    background-color: beige;
+    overflow: auto;
+    padding-bottom: 30px;
+}
+#footer-links > div{
+    width:33.33%;
+    float: left;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+#imp-links-ul li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+#footer-implinks ul{
+    padding: 0;
+}
+#footer-implinks{
+    padding-left: 65px;
+}
+#footer-aboutus h3, #footer-implinks h3, #footer-contactus h3{
+    text-decoration: underline;
+}
+#footer-copyright{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#app-banner{
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+#app-banner h3,p{
+    color: white;
+}
+
+#whyus-section{
+    overflow: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#whyus{
+    color: maroon;
+}
+.secton33{
+    float: left;
+    width: 33.33%;
+    padding: 0px 50px;
+    box-sizing: border-box;
+}
+.secton33 p{
+    color: black;
+}
+.strip-container{
+    background-color: brown;   
+    overflow: auto; 
+}
+.section70{
+    float: left;
+    width: 70%;
+    color: white;
+    box-sizing: border-box;
+}
+.section30{
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+.section30 a{
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#blog-container .secton33 a{
+    text-decoration: none;
+    color: red;
+    /* border: 1px solid red; */
+}
+#blog-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+#blog-container h2{
+    text-align: center;
+    color: red;
+}
+.contactus-container{
+    background-color: lightskyblue;
+    overflow:auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.contactus-container .section50{
+    float: left;
+    width: 50%;
+    color: white;
+    box-sizing: border-box;
+}
+.contactus-container h2:nth-child(1) {
+    text-align: center;
+    padding-right: 40px;
+  }
+  .contactus-container div:nth-of-type(1) input[type="text"]{
+   color:red;
+   padding: 10px;
+   margin-top: 12px;
+  }
+  .contactus-container div:nth-of-type(1) input[type="submit"]{
+    padding: 10px;
+    margin-top: 12px;
+    margin-left: 10px;
+   }
+
+   /* for mobile */
+@media only screen and (max-width: 500px){
+    #app-nav ul li {
+        padding-right: 12px;
+    }
+
+    .section50, .secton33, .section70, .section30 {
+        float: none;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .section70-mobile{
+        text-align: center;
+    }
+    .section30-mobile{
+        margin-top: 20px;
+        text-align: center;
+        padding-bottom: 40px;
+        padding-left: 0px;
+    }
+
+    .secton33-mobile{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    #section50-mobile{
+        float: none;
+        width: 100%;
+        padding-right: 0px;
+    }
+    .contactus-container {     
+        text-align: center;
+    }
+    #footer-links #footer-aboutus{
+        width: 100%;
+        float: none;
+    }
+    #footer-links #footer-implinks{
+        width: 100%;
+        float: none;
+    }
+    #footer-links #footer-contactus{
+        width: 100%;
+        float: none;
+    }
+    
+}
